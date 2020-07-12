@@ -49,7 +49,7 @@ DNCNN consists of the normalized convolutional layers, the pooling layers and th
 
 #### Our model architecture consist of:
 There are 3 types of layers -
-* **Conv+ReLU**: 64 filters of size 3×3×c are used to generate 64 feature maps.
+* **Conv+ReLU**: 64 filters of size 3×3×3 are used to generate 64 feature maps.
 * **Conv+BN+ReLU**: 64 filters of size 3×3×64 are used, and batch normalization is added between convolution and ReLU.
 * **Conv**: for the last layer, 3 filters of size 3×3×64 are used to reconstruct the output.
 
@@ -70,3 +70,4 @@ There are 3 types of layers -
 **SSIM**: 0.980
 
 ## Wide Inference Network(WIN)
+The key to our proposed network architecture is to employ larger perceptions ﬁeldsthrough wider and shallower networks with more concentrated convolutions to capture the priorimage distribution from the noisy images, and yields better overall generalization power to new,unseen noisy images.
