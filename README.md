@@ -22,10 +22,18 @@ Convolutional blocks consist of 3 operations: 2D convolution, batch normalizatio
 
 Deconvolutional blocks also consist of 3 operations: 2D transposed convolution, batch normalization and also ReLu activation. Here strides=2 is used to upsample the data.
 
-####Our model architecture consist of:
+#### Our model architecture consist of:
 
 * 4 convolutional blocks with downsampling
 * 1 convolutional block without downsampling
 * 4 deconvolutional blocks with upsampling, interleaving concatenations
 * 1 final deconvolution that recreates image size (32, 32, 3)
 * 1 activation layer with sigmoid that scales values to 0-1.
+
+**Loss Function**: mean squared error</br>
+**Optimize**: Adam
+
+#### Hyperparamters:
+* Batch Size = 128
+* no. of epochs = 40
+* Learning rate =0.001 .
