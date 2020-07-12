@@ -96,7 +96,7 @@ There are 3 types of layers -
 We have used PSNR and SSIM for image similarity tests. They are used to determine, how much quality is lost with the encoding process. PSNR is an engineering abbreviation for **peak signal-to-noise ratio**. SSIM stands for **structural similarity index** and is a more complex test aimed to determine perceivable difference between two images.</br>
 One of the advantages of the SSIM metric is that it better represents human visual perception than does PSNR. SSIM is more complex, however, and takes more time to calculate.
 
-| PSNR | SSIM
+ | PSNR | SSIM
 ------------ | ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+ | Content from cell 1 | Content from cell 2
+ | Content in the first column | Content in the second column
