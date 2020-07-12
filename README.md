@@ -71,3 +71,8 @@ There are 3 types of layers -
 
 ## Wide Inference Network(WIN)
 The key to our proposed network architecture is to employ larger perceptions ﬁeldsthrough wider and shallower networks with more concentrated convolutions to capture the priorimage distribution from the noisy images, and yields better overall generalization power to new,unseen noisy images.
+
+#### Our model architecture consist of:
+* **Conv+BN+ReLU**: 64 filters of size 7×7×3 are used to generate 64 feature maps, and batch normalization is added between convolution and ReLU.
+* **Conv+BN+ReLU**: 64 filters of size 7×7×64 are used, and batch normalization is added between convolution and ReLU.
+* **Conv+BN**: for the last layer, 3 filters of size 7×7×64 are used to reconstruct the output, and batch normalization is added between convolution and ReLU.
