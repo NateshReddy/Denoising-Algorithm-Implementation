@@ -53,6 +53,5 @@ There are 3 types of layers -
 * **Conv+ReLU**: 64 filters of size 3×3×c are used to generate 64 feature maps.
 * **Conv+BN+ReLU**: 64 filters of size 3×3×64 are used, and batch normalization is added between convolution and ReLU.
 * **Conv**: for the last layer, 3 filters of size 3×3×64 are used to reconstruct the output.
-![GitHub Logo](/images/dncnn_archi.png)
 
 <img src="/images/dncnn_archi.png" width="400" height="120" />
