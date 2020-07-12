@@ -15,7 +15,7 @@ Mean=0 noise makes some parts of the image darker and some lighter after additio
 
 ![GitHub Logo](/images/noisy_image.png)
 
-### Denoising Autoencoder(DAE)
+## Denoising Autoencoder(DAE)
 Now we define the building blocks of our DAE: a convolutional block and a deconvolutional block.</br>
 
 Convolutional blocks consist of 3 operations: 2D convolution, batch normalization and ReLu activation. We use strides=2 to downsample data going through the network.</br>
@@ -46,3 +46,10 @@ Deconvolutional blocks also consist of 3 operations: 2D transposed convolution, 
 **SSIM**: 0.983
 
 ## DeNoising Convolutional Neural Network(DnCNN)
+DNCNN consists of the normalized convolutional layers, the pooling layers and the normalized fully connected layers.
+
+#### Our model architecture consist of:
+There are 3 types of layers -
+* **Conv+ReLU**: 64 filters of size 3×3×c are used to generate 64 feature maps.
+* **Conv+BN+ReLU**: 64 filters of size 3×3×64 are used, and batch normalization is added between convolution and ReLU.
+* **Conv**: for the last layer, 3 filters of size 3×3×64 are used to reconstruct the output.
