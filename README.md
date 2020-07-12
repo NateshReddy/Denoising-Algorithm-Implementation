@@ -39,7 +39,7 @@ Deconvolutional blocks also consist of 3 operations: 2D transposed convolution, 
 * Learning rate =0.001
 
 ### Results
-[GitHub Logo](/images/result1.png)
+![GitHub Logo](/images/result1.png)
 
 ### Evaluation
 **PSNR**: 27.972 </br>
