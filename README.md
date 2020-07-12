@@ -55,4 +55,4 @@ There are 3 types of layers -
 * **Conv**: for the last layer, 3 filters of size 3×3×64 are used to reconstruct the output.
 ![GitHub Logo](/images/dncnn_archi.png)
 
-<img src="/images/dncnn_archi.png" width="400" height="200" />
+<img src="/images/dncnn_archi.png" width="400" height="120" />
