@@ -90,7 +90,7 @@ There are 3 types of layers -
 
 ### Evaluation
 **PSNR**: 28.449 </br>
-**SSIM**: 0.984
+**SSIM**: 0.985
 
 ## Conclusion
 We have used PSNR and SSIM for image similarity tests. They are used to determine, how much quality is lost with the encoding process. PSNR is an engineering abbreviation for **peak signal-to-noise ratio**. SSIM stands for **structural similarity index** and is a more complex test aimed to determine perceivable difference between two images.</br>
@@ -98,6 +98,6 @@ One of the advantages of the SSIM metric is that it better represents human visu
 
  Models | PSNR | SSIM
 ------------ | ------------ | -------------
- Denoising Autoencoder(DAE) | 27.972 | 0.983
  DeNoising CNN(DnCNN) | 27.085 | 0.980
- Wide Inference Network(WIN) | 28.449 | 0.984
+ Denoising Autoencoder(DAE) | 27.972 | 0.983
+ Wide Inference Network(WIN) | 28.449 | 0.985
