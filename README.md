@@ -98,6 +98,6 @@ One of the advantages of the SSIM metric is that it better represents human visu
 
  Models | PSNR | SSIM
 ------------ | ------------ | -------------
- Denoising Autoencoder(DAE) | Content from cell 1 | Content from cell 2
- DeNoising Convolutional Neural Network(DnCNN) | Content in the first column | Content in the second column
- Wide Inference Network(WIN) | Content in the first column | Content in the second column
+ Denoising Autoencoder(DAE) | 27.972 | 0.983
+ DeNoising CNN(DnCNN) | 27.085 | 0.980
+ Wide Inference Network(WIN) | 28.449 | 0.984
