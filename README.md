@@ -103,4 +103,5 @@ One of the advantages of the SSIM metric is that it better represents human visu
  Wide Inference Network(WIN) | 28.449 | 0.985
  
  ## References 
- ![U-Net: Convolutional Networks for Biomedical Image Segmentation](https://link.springer.com/chapter/10.1007%2F978-3-319-24574-4_28)
+ http://github.com - automatic!
+ [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://link.springer.com/chapter/10.1007%2F978-3-319-24574-4_28)
