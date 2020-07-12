@@ -55,3 +55,20 @@ There are 3 types of layers -
 * **Conv**: for the last layer, 3 filters of size 3×3×64 are used to reconstruct the output.
 
 <p align="center"><img src="/images/dncnn_archi.png" width="400" height="120"/></p>
+
+**Loss Function**: mean squared error</br>
+**Optimizer**: Adam
+
+#### Hyperparamters:
+* Batch Size = 32
+* no. of epochs = 30
+* Learning rate =0.001
+
+### Results
+![GitHub Logo](/images/result2.png)
+
+### Evaluation
+**PSNR**: 27.085 </br>
+**SSIM**: 0.980
+
+## Wide Inference Network(WIN)
