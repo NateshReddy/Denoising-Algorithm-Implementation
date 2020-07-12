@@ -3,7 +3,7 @@ We have applied various ML models for Image Denoising on CIFAR-10 Dataset
 
 ### Models -
 1. Denoising Autoencoder(DAE)
-1. DeNoising Convolutional Neural Network(DNCNN)
+1. DeNoising Convolutional Neural Network(DnCNN)
 1. Wide Inference Network(WIN)
 
 ### Dataset -
@@ -45,3 +45,4 @@ Deconvolutional blocks also consist of 3 operations: 2D transposed convolution, 
 **PSNR**: 27.972 </br>
 **SSIM**: 0.983
 
+## DeNoising Convolutional Neural Network(DnCNN)
