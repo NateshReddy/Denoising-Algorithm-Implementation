@@ -73,6 +73,30 @@ There are 3 types of layers -
 The key to our proposed network architecture is to employ larger perceptions ﬁeldsthrough wider and shallower networks with more concentrated convolutions to capture the priorimage distribution from the noisy images, and yields better overall generalization power to new,unseen noisy images.
 
 #### Our model architecture consist of:
+There are 3 types of layers -
 * **Conv+BN+ReLU**: 64 filters of size 7×7×3 are used to generate 64 feature maps, and batch normalization is added between convolution and ReLU.
 * **Conv+BN+ReLU**: 64 filters of size 7×7×64 are used, and batch normalization is added between convolution and ReLU.
 * **Conv+BN**: for the last layer, 3 filters of size 7×7×64 are used to reconstruct the output, and batch normalization is added between convolution and ReLU.
+
+**Loss Function**: mean squared error</br>
+**Optimizer**: Adam
+
+#### Hyperparamters:
+* Batch Size = 32
+* no. of epochs = 30
+
+### Results
+![GitHub Logo](/images/result3.png)
+
+### Evaluation
+**PSNR**: 28.449 </br>
+**SSIM**: 0.984
+
+## Conclusion
+We have used PSNR and SSIM for image similarity tests. They are used to determine, how much quality is lost with the encoding process. PSNR is an engineering abbreviation for **peak signal-to-noise ratio**. SSIM stands for **structural similarity index** and is a more complex test aimed to determine perceivable difference between two images.</br>
+One of the advantages of the SSIM metric is that it better represents human visual perception than does PSNR. SSIM is more complex, however, and takes more time to calculate.
+
+| PSNR | SSIM
+------------ | ------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
