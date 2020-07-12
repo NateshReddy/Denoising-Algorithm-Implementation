@@ -2,7 +2,7 @@
 We have applied various ML models for Image Denoising on CIFAR-10 Dataset
 
 ### Models -
-1. A Denoising Autoencoder(DAE)
+1. Denoising Autoencoder(DAE)
 1. DeNoising Convolutional Neural Network(DNCNN)
 1. Wide Inference Network(WIN)
 
@@ -14,3 +14,10 @@ To do this we added gaussian noise with mean=0 and std=0.1 and then clip values 
 Mean=0 noise makes some parts of the image darker and some lighter after addition.
 
 ![GitHub Logo](/images/noisy_image.png)
+
+### Denoising Autoencoder(DAE)
+Now we define the building blocks of our DAE: a convolutional block and a deconvolutional block.</br>
+
+Convolutional blocks consist of 3 operations: 2D convolution, batch normalization and ReLu activation. We use strides=2 to downsample data going through the network.</br>
+
+Deconvolutional blocks also consist of 3 operations: 2D transposed convolution, batch normalization and also ReLu activation. Here strides=2 is used to upsample the data.
