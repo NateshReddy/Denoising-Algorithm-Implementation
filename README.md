@@ -54,4 +54,4 @@ There are 3 types of layers -
 * **Conv+BN+ReLU**: 64 filters of size 3×3×64 are used, and batch normalization is added between convolution and ReLU.
 * **Conv**: for the last layer, 3 filters of size 3×3×64 are used to reconstruct the output.
 
-<img src="/images/dncnn_archi.png" width="400" height="120" />
+<img src="/images/dncnn_archi.png" width="400" height="120" align="middle"/>
