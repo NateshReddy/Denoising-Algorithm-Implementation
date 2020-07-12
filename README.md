@@ -36,7 +36,6 @@ Deconvolutional blocks also consist of 3 operations: 2D transposed convolution, 
 #### Hyperparamters:
 * Batch Size = 128
 * no. of epochs = 40
-* Learning rate =0.001
 
 ### Results
 ![GitHub Logo](/images/result1.png)
@@ -62,7 +61,6 @@ There are 3 types of layers -
 #### Hyperparamters:
 * Batch Size = 32
 * no. of epochs = 30
-* Learning rate =0.001
 
 ### Results
 ![GitHub Logo](/images/result2.png)
