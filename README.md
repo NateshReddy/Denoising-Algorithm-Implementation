@@ -31,9 +31,17 @@ Deconvolutional blocks also consist of 3 operations: 2D transposed convolution, 
 * 1 activation layer with sigmoid that scales values to 0-1.
 
 **Loss Function**: mean squared error</br>
-**Optimize**: Adam
+**Optimizer**: Adam
 
 #### Hyperparamters:
 * Batch Size = 128
 * no. of epochs = 40
-* Learning rate =0.001 .
+* Learning rate =0.001
+
+### Results
+[GitHub Logo](/images/result1.png)
+
+### Evaluation
+**PSNR**: 27.972 </br>
+**SSIM**: 0.983
+
