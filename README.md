@@ -102,5 +102,8 @@ One of the advantages of the SSIM metric is that it better represents human visu
  Denoising Autoencoder(DAE) | 27.972 | 0.983
  Wide Inference Network(WIN) | 28.449 | 0.985
  
- ## References 
- [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://link.springer.com/chapter/10.1007%2F978-3-319-24574-4_28)
+## References 
+[U-Net: Convolutional Networks for Biomedical Image Segmentation](https://link.springer.com/chapter/10.1007%2F978-3-319-24574-4_28)
+[Medical image denoising using convolutional denoising autoencoders](https://arxiv.org/pdf/1608.04667.pdf)
+[Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising](https://arxiv.org/pdf/1608.03981.pdf) 
+[Wide Inference Network for Image Denoising via Learning Pixel-distribution Prior](https://arxiv.org/pdf/1707.05414.pdf) 
